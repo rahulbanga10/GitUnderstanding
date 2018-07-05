@@ -1,0 +1,10 @@
+get status is like difference between working area and index
+git diff is diffrence between working area and index
+git diff --cached is diffrence between index and repository
+
+all contents are saved as blob in objects folder.
+git cat-file hash -t tells type blob or folder
+git cat-file hash -p prints the object
+
+cat .git/HEAD
+git branch gives the list of branches
